@@ -1,0 +1,9 @@
+name: Cards
+version: '${project.version}'
+main: org.xdm8.cards.Cards
+api-version: 1.20
+load: POSTWORLD
+commands:
+  giveCard:
+    usage: /<command> <text>
+    permission: op
